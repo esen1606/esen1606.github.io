@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face{
+    font-family: Roboto ;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: Roboto ;
+    background-image: url(../img/54835-gorod_reka_zdaniya_neboskreby_yasnyj_den.jpg);
+    padding:30Px;
+}
+
+main{
+    width:70%;
+    padding:40Px;
+    margin-left:15%;
+    background-color: yellowgreen;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow:0 0 10px 1px darkblue;
+}
+
+h1{
+    width: 100%;
+    font-size:50px;
+}
+
+p{
+    width: 100%;
+    font-size:25px;
+}
+
+.photo{
+    width:160px;
+    height:160px;
+    margin:auto;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color:black
+}
+.photo:hover{
+    transform:rotate(725deg) scale(2);
+}
+
+.photo1{
+    background-image: url(../img/avatars-000416488293-9cb0v6-t500x500.jpg);
+    background-size: 100%;
+}  
+
+.photo2{
+    background-image: url(../img/Поззи.jpg);
+    background-size: 100%;
+}
+
+.photo3{
+    background-image: url(../img/unnamed.jpg);
+    background-size: 100%
+
+}
+
+.photo4{
+    background-image: url(../img/240z240_front_2098_0_0_0_f4f04c3287796c3c54c92e56a944.jpg);
+    background-size: 100%;
+}
+
+.photo5{
+    background-image: url(../img/Без\ названия.jpg);
+    background-size: 100%;
+}
+
+.photo6{
+    background-image: url(../img/marin_marmok_1.jpg);
+    background-size: 100%;
+}
+
+.photo7{
+    background-image: url(../img/e8b01ebddf2ed464996a9ff1366613ec.jpg);
+    background-size: 100%;
+}
+
+.photo8{
+    background-image: url(../img/pGIgDe96CGw.jpg);
+    background-size: 100%;
+}
+ 
+.photo9{
+    background-image: url(../img/792f5c1bca7148203459c69811e3a542.jpg);
+    background-size: 100%;
+}
+
+.photo10{
+    background-image: url(../img/gdthtytj.jpg);
+    background-size: 100%;
+}
+
+.photo11{
+    background-image: url(../img/19a6ec6f774a1564c4fc6c92d6be6607.jpg);
+    background-size: 100%;
+}
+
+.photo12{
+    background-image: url(../img/dfgs.jpg);
+    background-size: 100%;
+}
